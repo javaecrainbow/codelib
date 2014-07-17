@@ -1,0 +1,7 @@
+<%@ jet package="com.focus.demo.jet.hello" class="HelloWordJspTemplate" startTag="<$" endTag="$>"%>
+
+ <$ String paramName = (String) argument; /* This is an executed scriptlet */ $>
+ <$ if (paramName != null) { $>
+   <%= request.getParameter("<$=paramName$>") %> <!-- this is generated JSP -->
+
+ <$ } $>

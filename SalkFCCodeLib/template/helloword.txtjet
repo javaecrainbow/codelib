@@ -1,0 +1,9 @@
+<%@ jet package="com.focus.demo.jet.hello" class="HelloWordTxtTemplate"%>
+
+<%
+String userName = (String)argument;
+
+%>
+<%=userName%> Hello Word!!
+
+<%@ include file="base.txtjet" %>

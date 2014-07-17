@@ -1,0 +1,3 @@
+<%@ jet package="com.focus.demo.jet.hello" class="CustomizeGreetingTemplate" skeleton="generate.skeleton" %>
+ Hello, <%=argument%>
+ The current time is <%=new java.util.Date()%>.

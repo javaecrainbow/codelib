@@ -1,0 +1,13 @@
+<%@ jet package="com.focus.demo.jet.hello" imports="java.util.*" class="HelloWordJavaTemplate"%>
+<%
+String arg = (String)argument;
+if("ss".equals(arg)){
+%>
+test ss;
+<%
+}else{
+%>
+test not ss;
+<%
+}
+%>

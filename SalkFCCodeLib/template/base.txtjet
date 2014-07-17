@@ -1,0 +1,2 @@
+<%@ jet package="com.focus.demo.jet.hello" imports="java.util.*" class="HelloWordBaseTxtTemplate"%>
+Copy right:2009-2015

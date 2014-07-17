@@ -1,0 +1,9 @@
+<%@ jet package="com.focus.demo.jet.hello" imports="java.util.*" class="HelloWordXmlTemplate"%>
+<% List elementList = (List) argument; %>
+<?xml version="1.0" encoding="UTF-8"?>
+   <demo>
+   <% for (Iterator i = elementList.iterator(); i.hasNext(); ) { %>
+
+     <element><%=i.next().toString()%></element>
+   <% } %>
+   </demo>

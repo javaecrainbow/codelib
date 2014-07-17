@@ -1,0 +1,4 @@
+迭代器模式是用来封装集合遍历的一种设计模式
+
+那从jdk1.2开始增加的iterator这个接口，用来遍历元素，从jdk1.5开始iterator已经应用到了各大集合中，有一个iterable的借口用来实现iterator
+
