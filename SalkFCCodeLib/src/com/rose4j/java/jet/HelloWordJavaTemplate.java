@@ -1,4 +1,4 @@
-package com.focus.demo.jet.hello;
+package com.rose4j.java.jet;
 
 import java.util.*;
 
