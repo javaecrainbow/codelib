@@ -6,13 +6,6 @@ import org.eclipse.jdt.core.IPackageFragment;
 import org.eclipse.jdt.core.IPackageFragmentRoot;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import com.focus.demo.jet.hello.HelloWordJavaTemplate;
-import com.focus.demo.jet.hello.HelloWordJspTemplate;
-import com.focus.demo.jet.hello.HelloWordTxtTemplate;
-import com.focus.demo.jet.hello.HelloWordXmlTemplate;
-import com.focus.demo.jet.hello.JavaTemplateParameter;
-import com.focus.demo.jet.hello.ModelTemplate;
 public class Client {
   @Test
   public void testTxt() {
